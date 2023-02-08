@@ -12,6 +12,7 @@ header {
     justify-content: end;
     align-items: center;
     padding-right: 150px;
+    margin-bottom: 130px;
 }
 
 #banner-data {
@@ -19,10 +20,30 @@ header {
     width: 494px;
 }
 
+#failures-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#failures-data {
+    width: 416px;
+}
+
 /* common styles */
 h1 {
     font-weight: 700;
     font-size: 65px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .btn-primary {
