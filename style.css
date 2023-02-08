@@ -1,0 +1,37 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+
+header {
+    height: 808px;
+    background-image: url('/images/banner/banner.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 150px;
+}
+
+#banner-data {
+    text-align: right;
+    width: 494px;
+}
+
+/* common styles */
+h1 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.btn-primary {
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
