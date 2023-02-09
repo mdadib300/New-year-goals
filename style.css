@@ -1,9 +1,11 @@
+/* body styles */
 body {
     font-family: 'Space Grotesk', sans-serif;
     max-width: 1440px;
     margin: auto;
 }
 
+/* header styles */
 header {
     height: 808px;
     background-image: url('/images/banner/banner.png');
@@ -20,6 +22,7 @@ header {
     width: 494px;
 }
 
+/* main styles */
 #failures-div {
     display: flex;
     align-items: center;
@@ -53,6 +56,19 @@ header {
     width: 459px;
 }
 
+#ongoing-course {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-bottom: 130px;
+}
+
+#course-image {
+    margin-right: 30px;
+}
+
+/* footer styles */
 footer {
     background-color: #151414;
     display: flex;
@@ -95,6 +111,12 @@ h5 {
     margin-bottom: 30px;
 }
 
+a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: 700;
+}
+
 .txt-white {
     color: white;
 }
@@ -112,6 +134,7 @@ input {
     height: 60px;
     padding-left: 20px;
     font-size: larger;
+    color: white;
     border: 1px solid white;
     border-radius: 5px;
     background-color: #151414;
