@@ -39,6 +39,19 @@ header {
     padding: 0 200px;
 }
 
+#call-center {
+    background-image: linear-gradient(to left, rgba(241, 91, 34, 0), tomato),url('./images/watch.png');
+    background-repeat: no-repeat;
+    margin: 130px 230px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#call-center-data {
+    width: 459px;
+}
+
 /* common styles */
 h1 {
     font-weight: 700;
@@ -55,6 +68,13 @@ h3 {
     font-size: 30px;
 }
 
+h4 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
 .txt-center {
     text-align: center;
 }
@@ -68,4 +88,15 @@ h3 {
     border: none;
     border-radius: 5px;
     margin-top: 30px;
+}
+
+.btn-outline {
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: tomato;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
 }
