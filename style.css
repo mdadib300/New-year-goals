@@ -8,7 +8,7 @@ body {
 /* header styles */
 #header-div {
     height: 808px;
-    background-image: url('/images/banner/banner.png');
+    background-image: url('./images/banner/banner.png');
     background-repeat: no-repeat;
     display: flex;
     justify-content: end;
